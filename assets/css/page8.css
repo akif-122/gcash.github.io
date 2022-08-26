@@ -1,0 +1,256 @@
+
+
+/*
+===================================
+	BILLLER SECTION START
+===================================
+*/
+.biller-section{
+	margin: 100px 0;
+}
+
+.biller-section .biller-tab ul{
+	border-bottom: none;
+	margin-bottom: 20px;
+}
+.biller-section .biller-tab ul li{
+	width: 100%;
+}
+.biller-section .biller-tab ul li a{
+	font-size: 16px;
+	margin: 5px 0;
+	padding: 15px 20px;
+	border-radius: 50px;
+	display: block;
+	width: 100%;
+	position: relative;
+	padding-left: 80px;
+}
+.biller-section .biller-tab ul li a.active{
+	color: #fff;
+	background: #297BFA;
+}
+
+.biller-section .biller-tab ul li a.other-btn{
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+.biller-section .biller-tab ul li a img{
+	width: 25px;
+	position: absolute;
+	left: 30px;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+
+.biller-content .search-bar-container{
+	margin-bottom: 30px;
+}
+
+.biller-content .search-bar-container .search-bar{
+	width: 500px;
+
+	position: relative;
+}
+.biller-content .search-bar-container .search-bar i{
+	color: #297BFA;
+	font-size: 25px;
+	font-weight: 400;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	
+
+
+
+}
+.biller-content .search-bar-container .search-bar input{
+	width: 100%;
+	height: 55px;
+	padding: 15px;
+	padding-right: 50px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 100px;
+	color: #297BFA;
+	border: 1px solid #297BFA;
+}
+
+.biller-content .biller-card{
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 0 10px -5px grey;
+	padding: 15px 15px ;
+	padding-bottom: 30px;
+	margin: 15px 0;
+}
+
+.biller-content .biller-card h5{
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.biller-content .biller-card span{
+	font-size: 15px;
+	font-weight: 400;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.biller-content .biller-card p{
+	font-size: 15px;
+	margin: 0;
+}
+
+
+.pager{
+	border-top: 1px solid #444;
+	margin-top: 50px;
+	padding: 20px 0;
+}
+.pager ul{
+	justify-content: flex-end;
+}
+.pager ul li a{
+	font-size: 15px;
+	border: 1px solid #777;
+	padding: 5px 10px;
+	color: #333;
+	font-weight: 500;
+}
+
+
+/*
+===================================
+	BILLLER SECTION END
+===================================
+*/
+
+@media screen and (max-width: 1199px){
+
+.biller-section .biller-tab ul li a{
+	font-size: 14px;
+	margin: 5px 0;
+	padding: 15px 20px;
+	border-radius: 50px;
+	display: block;
+	width: 100%;
+	position: relative;
+	padding-left: 60px;
+}
+
+.biller-section .biller-tab ul li a img{
+	width: 25px;
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+
+}
+
+@media screen and (max-width: 991px){
+
+.biller-content .search-bar-container .search-bar{
+	width: 100%;
+	position: relative;
+}
+
+.biller-content .biller-card h5{
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.biller-content .biller-card span{
+	font-size: 14px;
+	font-weight: 400;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.biller-content .biller-card p{
+	font-size: 14px;
+	margin: 0;
+}
+
+
+}
+
+@media screen and (max-width: 767px){
+
+.biller-section .biller-tab ul{
+	border-bottom: none;
+	display: flex;
+	justify-content: center;
+}
+.biller-section .biller-tab ul li{
+	max-width: 170px;
+}
+.biller-section .biller-tab ul li a{
+	font-size: 13px;
+	margin: 5px 0;
+	padding: 10px 15px;
+	border-radius: 50px;
+	display: block;
+	width: 100%;
+	position: relative;
+	padding-left: 30px;
+}
+.biller-section .biller-tab ul li a.active{
+	color: #fff;
+	background: #297BFA;
+}
+.biller-section .biller-tab ul li a img{
+	width: 15px;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+
+.pager ul{
+	justify-content: center;
+}
+
+}
+
+
+@media screen and (max-width: 575px){
+
+.biller-section .biller-tab ul{
+	border-bottom: none;
+	display: flex;
+	justify-content: center;
+}
+.biller-section .biller-tab ul li{
+	max-width: 145px;
+}
+.biller-section .biller-tab ul li a{
+	font-size: 12px;
+	margin: 5px 0;
+	padding: 10px 10px;
+	border-radius: 50px;
+	display: block;
+	width: 100%;
+	position: relative;
+	padding-left: 23px;
+}
+
+.biller-section .biller-tab ul li a img{
+	width: 15px;
+	position: absolute;
+	left: 5px;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+
+.biller-content .biller-card{
+	text-align: center;
+}
+
+
+}

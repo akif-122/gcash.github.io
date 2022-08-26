@@ -1,0 +1,324 @@
+
+
+
+
+
+
+/*
+========================================
+	CARD SECTION START
+========================================
+*/
+.card-section{
+	margin: 80px 0; 
+}
+.card-section .card-card{
+	width: 95%;
+	margin: 15px auto;
+	border-radius: 10px;
+	box-shadow: 0 0 8px -5px grey;
+	text-align: center;
+}
+
+.card-section .card-card .card-text{
+	margin: 70px 0;
+	padding: 50px 15px;
+}
+
+.card-section .card-card h5{
+	font-size: 16px;
+	font-weight: 600;
+	color: #297BFA;
+	margin: 10px 0;
+}
+
+.card-section .card-card p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #333;
+	opacity: 0.8;
+}
+
+
+/*
+========================================
+	CARD SECTION END
+========================================
+*/
+
+
+/*
+========================================
+	STORY SECTION START
+========================================
+*/
+.story-text{
+	background: #297BFA;
+	padding: 30px 60px;
+	margin: 30px 0;
+}
+
+.story-text p{
+	font-size: 15px;
+	font-weight: 500;
+	color: #fff;
+	opacity: 0.8;
+	margin: 20px 0;
+}
+
+.story-content {
+	margin: 30px 0;
+	padding-left: 40px;
+	padding-right: 80px;
+}
+
+.story-content h2{
+	font-size: 30px;
+	font-weight: 600;
+	color: #297BFA;
+	margin-bottom: 40px;
+}
+
+.story-content h5{
+	font-size: 17px;
+	font-weight: 600;
+	color: #222;
+	margin: 15px 0;
+}
+
+.story-content p{
+	font-size: 16px;
+	margin-bottom: 30px;
+	color: #333;
+	opacity: 0.8;
+
+}
+
+
+
+/*
+========================================
+	STORY SECTION END
+========================================
+*/
+
+
+/*
+========================================
+	ARTICAL SECTION START
+========================================
+*/
+.artical-section{
+	margin: 80px 0;
+}
+
+.artical-section .section-text h2{
+	font-size: 38px;
+	font-weight: 600;
+	margin: 30px 0;
+	color: #297BFA;
+}
+
+.artical-section  .artical-card{
+	margin: 15px 0;
+	width: 100%;
+	padding-bottom: 20px;
+	box-shadow: 0 0 10px -7px grey;
+}
+
+.artical-section  .artical-card img{
+	width: 100%;
+}
+
+.artical-card-text{
+	padding: 5px 20px;
+}
+
+.artical-section  .artical-card h5{
+	font-size: 15px;
+	text-align: left;
+	font-weight: 600;
+	line-height: 1.5;
+	margin: 15px 0;
+}
+.artical-section  .artical-card p{
+	font-size: 13px;
+	color: #333;
+	opacity: 0.8;
+}
+
+.artical-section .artical-btn {
+	padding: 8px 40px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	background: #297BFA;
+	border-radius: 50px;
+	display: inline-block;
+	text-align: center;
+	margin: 20px auto;
+}
+.artical-section .artical-btn:hover{
+	color: #297BFA;
+	background: #7FFFD4;
+}
+
+
+/*
+========================================
+	ARTICAL SECTION END
+========================================
+*/
+
+
+@media screen and (max-width: 991px){
+
+/*
+========================================
+	STORY SECTION START
+========================================
+*/
+.story-text{
+	background: #297BFA;
+	padding: 30px 40px;
+	margin: 30px 0;
+}
+
+.story-text p{
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	opacity: 0.8;
+	margin: 20px 0;
+}
+
+.story-content {
+	margin: 30px 0;
+	padding-left: 40px;
+	padding-right: 50px;
+}
+
+.story-content h2{
+	font-size: 28px;
+}
+
+.story-content h5{
+	font-size: 16px;
+
+}
+
+.story-content p{
+	font-size: 15px;
+
+}
+
+
+
+/*
+========================================
+	STORY SECTION END
+========================================
+*/
+
+
+}
+
+
+@media screen and (max-width: 767px){
+
+/*
+========================================
+	STORY SECTION START
+========================================
+*/
+.story-text{
+	background: #297BFA;
+	padding: 30px 40px;
+	margin: 30px 0;
+}
+
+.story-text p{
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	opacity: 0.8;
+	margin: 20px 0;
+}
+
+.story-content {
+	margin: 30px 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.story-content h2{
+	font-size: 28px;
+}
+
+.story-content h5{
+	font-size: 16px;
+
+}
+
+.story-content p{
+	font-size: 15px;
+
+}
+
+
+
+/*
+========================================
+	STORY SECTION END
+========================================
+*/
+
+
+}
+
+
+
+
+@media screen and (max-width: 575px){
+
+/*
+========================================
+	STORY SECTION START
+========================================
+*/
+.story-text{
+	background: #297BFA;
+	padding: 30px 20px;
+	margin: 30px 0;
+}
+
+.story-text p{
+	font-size: 13px;
+}
+
+
+.story-content h2{
+	font-size: 24px;
+}
+
+.story-content h5{
+	font-size: 15px;
+
+}
+
+.story-content p{
+	font-size: 13px;
+
+}
+
+
+
+/*
+========================================
+	STORY SECTION END
+========================================
+*/
+
+
+}

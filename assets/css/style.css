@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0.3s linear ;
+	outline: none;
+}
+
+
+html{
+	font-size: 62.5%;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+.anime-up:hover{
+	transform: translate( 0, -15px );
+	
+}
+
+.anime-rotate:hover{
+	transform: rotate(7deg);
+	
+}
+
+.anime-zoom:hover{
+	transform: scale(1.1);
+	
+}
+
+.wrapper{
+	overflow: hidden;
+}
+.padd{
+	padding: 0 30px;
+}
+
+.section-title h2{
+	font-size: 38px;
+	font-weight: 600;
+}
+.section-title p{
+	font-size: 16px;
+	font-weight: 500;
+	color: #444;
+}
+
+/*
+======================================
+	NAVBAR SECTION START
+======================================
+*/
+.Gnav{
+	background: #297BFA;
+	padding: 40px 0;
+}
+.Gnav .navbar-toggler{
+	border: 1px solid transparent;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	outline: none;
+
+}
+.Gnav .navbar-toggler span{
+	font-size: 20px;
+}
+.Gnav .navbar-brand{
+	margin-right: 70px;
+}
+.Gnav .navbar-brand h2{
+	font-size: 32px;
+	font-weight: 600;
+}
+.Gnav .cst-btn li a{
+	font-size: 17px ;
+	margin: 0 10px;
+	opacity: 0.8;
+	color: #fff;
+	position: relative;
+}
+
+.Gnav .cst-btn li a.active{
+	position: relative;
+	opacity: 1;
+}
+
+.Gnav .cst-btn li a:before{
+	width: 0px;
+	height: 2px;
+	background: #7FFFD4;
+	opacity: 0.7;
+	content: "";
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	bottom: -3px;
+	transform: translate(-50%, -50%);
+	transition: all 0.2s linear;
+
+}
+.Gnav .cst-btn li a.active:before{
+	width: 100%;
+	opacity: 1;
+
+}
+
+.Gnav .cst-btn li a:hover:before{
+	width: 100%;
+}
+
+
+
+
+
+
+.GnavbarLink li a{
+	color: #fff;
+	font-size: 17px;
+	margin: 0 10px;
+	opacity: 0.8;
+	font-weight: 500;
+}
+
+
+.Gnav .GnavbarLink li a.active{
+	background: transparent !important;
+}
+.Gnav .GnavbarLink li a.active:before{
+	width: 0px;
+	height: 2px;
+	background: transparent;
+	opacity: 0.7;
+	content: "";
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	bottom: -3px;
+	transform: translate(-50%, -50%);
+	transition: all 0.2s linear;
+
+}
+.Gnav .GnavbarLink li a.active{
+	opacity: 1;
+	font-weight: 600;
+}
+.Gnav .GnavbarLink li a:hover:before{
+	width: 0 !important;
+}
+.register-btns li{
+	list-style: none;
+	text-align: center;
+}
+.register-btns li a{
+	font-size: 16px;
+	color: #333;
+	background: #fff;
+	padding: 7px 15px;
+	border-radius: 40px;
+	margin: 0 5px;
+	font-weight: 500;
+
+}
+.register-btns li a:hover{
+	background: #7FFFD4;
+}
+/*
+======================================
+	NAVBAR SECTION END
+======================================
+*/
+
+
+/*
+======================================
+	HEADER SECTION START
+======================================
+*/
+.header-section{
+	padding-top: 40px;
+	margin-bottom: 40px;
+	background: #91B3FA;
+}
+.header-section .header-text{
+	margin-bottom: 40px;
+}
+
+.header-section .header-text h1{
+	font-size: 45px;
+	font-weight: 600;
+	color: #fff;
+}
+.header-section .header-text p{
+	margin: 10px 0;
+	font-size: 24px;
+	color: #fff;
+}
+
+/*
+======================================
+	HEADER SECTION END
+======================================
+*/
+
+
+/*
+======================================
+	BUSINESS SECTION START
+======================================
+*/
+.business-section{
+	margin: 100px 0;
+}
+
+.business-section .section-title h2{
+	color: #297BFA;
+}
+.business-section .business-card{
+	border: 1px solid #555;
+	border-radius: 20px;
+	padding: 50px 15px;
+	padding-bottom: 30px;
+	width: 100%;
+	margin: 15px 0;
+}
+
+.business-section .business-card .card-profile-img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin: 0px auto;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.business-section .business-card .card-profile-img img{
+	width: 100%;
+}
+.business-section .business-card h5{
+	font-size: 17px;
+	font-weight: 600;
+	color: #222;
+	margin: 20px 0;
+}
+.business-section .business-card p{
+	font-size: 14px;
+	font-weight: 500;
+	color: #333;
+	opacity: 0.9;
+
+}
+/*
+======================================
+	BUSINESS SECTION END
+======================================
+*/
+
+/*
+======================================
+	PLATFORM SECTION START
+======================================
+*/
+.platform{
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+.platform .section-title h2{
+	color: #297BFA;
+
+}
+
+.platform .platform-card{
+	border: 1px solid #555;
+	border-radius: 20px;
+	padding: 30px 20px;
+	text-align: center;
+	margin: 15px 0;
+	width: 100%;
+
+}
+
+.platform .platform-card .pltfrm-card-icon{
+	background: #7FFFD4;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.platform .platform-card .pltfrm-card-icon img{
+	width: 60px;
+}
+
+.platform .platform-card h5{
+	font-size: 17px;
+	font-weight: 600;
+	color: #222;
+}
+
+.platform .platform-card p{
+	font-size: 14px;
+	color: #222;
+	margin: 10px 0;
+}
+
+
+
+/*
+======================================
+	PLATFORM SECTION END
+======================================
+*/
+
+/*
+======================================
+	BTN SECTION START
+======================================
+*/
+.btn-section{
+	padding: 10px;
+}
+
+.btn-section a {
+	text-align: center;
+	width: 220px;
+	font-size: 17px;
+	font-weight: 500;
+	border: 1px solid #297BFA;
+	display: inline-block;
+	margin: 10px;
+	padding: 12px 30px;
+	border-radius: 40px;
+}
+.btn-section a:first-child{
+	color: #fff;
+	background: #297BFA;
+
+}
+.btn-section a:first-child:hover{
+	color: #297BFA;
+	background: transparent;
+}
+
+.btn-section a:last-child{
+	color: #297BFA;
+	background: transparent;
+}
+
+.btn-section a:last-child:hover{
+	color: #fff;
+	background: #297BFA;
+}
+
+/*
+======================================
+	BTN SECTION END
+======================================
+*/
+
+
+/*
+======================================
+	PRODUCT SECTION START
+======================================
+*/
+.product-section{
+	margin-top: 100px;
+	background: #F2F2F2;
+	padding: 50px 0;
+}
+.product-section .section-title{
+	margin-bottom: 20px;
+}
+.product-section .section-title h2{
+	color: #297BFA;
+}
+.product-section .product-card{
+	width: 100%;
+	border-radius: 10px;
+	text-align: center;
+	padding: 40px 10px;
+	margin: 15px 0;
+	box-shadow: 1px 1px 10px -7px #111;
+	background: #fff;
+	min-width: 170px !important;
+	
+}
+
+.product-section .product-card .product-card-img img{
+	width: 45px;
+	margin-bottom: 20px;
+}
+.product-section .product-card h5{
+	font-size: 15px;
+	font-weight: 500;
+	color: #222;
+	margin-bottom: 10px;
+}
+
+.product-section .product-card p{
+	font-size: 13px;
+	margin-bottom: 30px;
+	color: #333;
+	opacity: 0.9;
+}
+.product-section .product-card a{
+	font-size: 14px;
+	color: #297BFA;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.product-section .product-card a:hover{
+	text-decoration: underline !important;
+}
+/*
+======================================
+	PRODUCT SECTION END
+======================================
+*/
+
+
+
+/*
+======================================
+	GLIFE SECTION START
+======================================
+*/
+.glife-section{
+	padding: 40px 0;
+	padding-bottom: 70px;
+	margin-bottom: 50px;
+	background: #91B3FA;
+}
+
+.glife-section .section-title h2{
+	color: #ffff;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.glife-section .glife-card{
+	background: #fff;
+	border-radius: 10px;
+	width: 100%;
+	padding: 20px 30px;
+	padding-bottom: 30px;
+	margin: 15px 0;
+	text-align: center;
+
+}
+
+.glife-section .glife-card .glife-img img{
+	width: 100px;
+	margin: 20px 0;
+}
+.glife-section .glife-card h5{
+	font-size: 15px;
+	font-weight: 500;
+	color: #222;
+	margin-bottom: 10px;
+}
+.glife-section .glife-card p{
+	font-size: 14px;
+	color: #222;
+	margin: 10px 0;
+}
+
+/*
+======================================
+	GLIFE SECTION END
+======================================
+*/
+
+
+/*
+======================================
+	DOWNLOAD SECTION START
+======================================
+*/
+.download-section{
+	margin:80px 0;
+}
+
+.download-section .section-title h2{
+	color: #297BFA;
+	font-weight: 600;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.download-section .download-btns a{
+	display: inline-block;
+	margin: 10px;
+}
+.download-section .download-btns a img{
+	width: 120px;
+}
+.download-section .download-btns a:last-child img{
+	width: 134px;
+}
+/*
+======================================
+	DOWNLOAD SECTION END
+======================================
+*/
+
+
+
+.footer-section{
+	margin-top: 100px;
+	padding: 10px 0;
+}
+.footer-section .line{
+	margin: 10px 0;
+	width: 100%;
+	border-bottom: 1px solid #444;
+}
+
+.footer-section .footer-first-content .footer-logo h3{
+	font-size: 32px;
+	color: #297BFA;
+	margin-bottom: 0;
+}
+.footer-section .footer-first-content .footer-social-link ul{
+	list-style: none;
+	display: flex;
+}
+
+.footer-section .footer-first-content .footer-social-link ul li a{
+	margin: 0 5px;
+	display: inline-block;
+}
+
+.footer-section .footer-first-content .footer-social-link ul li a i{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	font-size: 15px;
+	color: #fff;
+	background: #297BFA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+}
+
+.footer-section .footer-first-content .footer-social-link ul li a:hover i{
+	color: #297BFA;
+	background: #7FFFD4;
+}
+
+.footer-last-content p{
+	font-size: 13px;
+	font-weight: 500;
+	color: #222;
+}
+
+.footer-last-content ul.footer-link {
+	list-style: none;
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.footer-last-content ul.footer-link li a{
+	display: inline-block;
+	margin: 5px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #222;
+}
+
+.footer-last-content ul.footer-link li a:hover{
+	color: #297BFA;
+}

@@ -1,0 +1,55 @@
+.search-section{
+	margin-top: 80px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.search-section input{
+	width: 80%;
+	height: 45px;
+	border: 1px solid #297BFA;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px -3px grey;
+	padding: 10px ;
+	font-size: 17px;
+}
+
+.search-section button{
+	width: 15%;
+	height: 45px;
+	border-radius: 5px;
+	border: 1px solid #297BFA;
+	background: #297BFA;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.search-section button:hover{
+	color: #297BFA;
+	background: transparent;
+}
+
+.merchant-list a{
+	padding-left: 100px;
+	display: block;
+}
+.merchant-list a:nth-child(odd){
+	background: #ECECEC;
+}
+.merchant-list a:nth-child(even){
+	margin-bottom: 5px;
+}
+.merchant-list a p{
+	font-size: 16px;
+	font-weight: 500;
+	padding:10px ;
+	margin: 0;
+	color: #111;
+}
+
+.pager{
+	border-top: 0;
+}

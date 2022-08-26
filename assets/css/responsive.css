@@ -1,0 +1,274 @@
+@media screen and (max-width: 1199px){
+/*
+======================================
+	NAVBAR SECTION START
+======================================
+*/
+.Gnav{
+	background: #297BFA;
+	padding: 15px;
+}
+.Gnav .navbar-brand{
+	margin-right: 25px;
+}
+
+.cst-btn{
+	 margin-right: 0px;
+	 margin-bottom: 15px;
+	 text-align: center;
+
+}
+.cst-btn li a{
+	font-size: 17px;
+	color: #fff !important;
+	display: block;
+	border-bottom: 1px solid rgba(255,255,255, 0.5);
+
+}
+.Gnav .GnavbarLink li{
+	border-bottom: 1px solid rgba(255,255,255, 0.5);
+
+}
+.Gnav .GnavbarLink li a{
+	font-size: 17px;
+	font-weight: 500;
+	color: #fff;
+	position: relative;
+	display: block;
+	text-align: center;
+	padding: 5px 0; 
+	margin: 0 10px;
+	margin-bottom: 4px;
+}
+.Gnav .GnavbarLink li a.active{
+	position: relative;
+}
+
+.Gnav .GnavbarLink li a:before{
+	width: 0px;
+	height: 2px;
+	background: #fff;
+	opacity: 0.7;
+	content: "";
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	bottom: -3px;
+	transform: translate(-50%, -50%);
+	transition: all 0.2s linear;
+
+}
+.Gnav .GnavbarLink li a.active:before{
+	width: 100%;
+}
+
+.Gnav .GnavbarLink li a:hover:before{
+	width: 100%;
+}
+.cst-btn li{
+	padding-bottom: 10px;
+
+}
+.cst-btn li a{
+
+	padding-bottom: 5px;
+
+}
+
+
+.register-btns li{
+	margin-top: 20px;
+}
+/*
+======================================
+	NAVBAR SECTION END
+======================================
+*/
+
+
+
+/*
+======================================
+	HEADER SECTION START
+======================================
+*/
+.header-section .header-text h1{
+	font-size: 40px;
+}
+.header-section .header-text p{
+	font-size: 22px;
+}
+
+/*
+======================================
+	HEADER SECTION END
+======================================
+*/
+
+
+}
+
+
+@media screen and (max-width: 991px){
+.padd{
+	padding: 0px 0px;
+}
+.glife-section .section-title h2,
+.section-title h2{
+	font-size: 30px !important;
+	font-weight: 600;
+}
+.section-title p{
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+======================================
+	HEADER SECTION START
+======================================
+*/
+.header-section .header-text h1{
+	font-size: 30px;
+}
+.header-section .header-text p{
+	font-size: 18px;
+}
+
+/*
+======================================
+	HEADER SECTION END
+======================================
+*/
+
+
+}
+
+
+@media screen and (max-width: 767px){
+.section-title{
+	text-align: center;
+}
+/*
+======================================
+	HEADER SECTION START
+======================================
+*/
+.header-section .header-text{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+/*
+======================================
+	HEADER SECTION END
+======================================
+*/
+
+
+/*
+======================================
+	BUSINESS SECTION START
+======================================
+*/
+
+
+
+/*
+======================================
+	BUSINESS SECTION END
+======================================
+*/
+
+/*
+======================================
+	PLATFORM SECTION START
+======================================
+*/
+.platform{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+/*
+======================================
+	PLATFORM SECTION END
+======================================
+*/
+
+
+
+/*
+======================================
+	PRODUCT SECTION START
+======================================
+*/
+.product-section{
+	margin-top: 50px;
+	background: #F2F2F2;
+	padding: 50px 0;
+}
+
+/*
+======================================
+	PRODUCT SECTION END
+======================================
+*/
+
+.footer-last-content ul.footer-link {
+	margin: 10px 0;
+}
+
+}
+
+@media screen and (max-width: 575px){
+.glife-section .section-title h2,
+.section-title h2{
+	font-size: 20px !important;
+	font-weight: 600;
+}
+.section-title p{
+	font-size: 13px;
+}
+/*
+======================================
+	BUSINESS SECTION START
+======================================
+*/
+.business-section{
+	margin: 50px 0;
+}
+
+/*
+======================================
+	BTN SECTION START
+======================================
+*/
+.btn-section{
+	padding: 10px;
+}
+
+.btn-section a {
+	width: 200px;
+	font-size: 15px;
+
+}
+
+
+/*
+======================================
+	BTN SECTION END
+======================================
+*/
+
+
+
+}

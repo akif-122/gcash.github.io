@@ -1,0 +1,72 @@
+a.header-btn{
+	font-size: 14px;
+	color: #333;
+	background: #fff;
+	padding: 7px 15px;
+	border-radius: 40px;
+	margin: 0 5px;
+	font-weight: 500;
+	display: inline-block;
+
+}
+
+a.header-btn:hover{
+	background: #7FFFD4;
+}
+
+
+
+.shops-section{
+	margin: 100px 0;
+}
+
+.shops-section .section-text{
+	margin-bottom: 40px;
+}
+
+.shops-section .section-text h2{
+	color: #297BFA;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.shops-section .shops-card{
+	width: 100%;
+	margin: 25px 0;
+}
+.shops-section .shops-card:hover img{
+	transform: scale(1.1);
+}
+
+.shops-section .shops-card .shops-card-img{
+	border-radius: 10px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.shops-section .shops-card h4{
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+
+@media screen and (max-width: 767px){
+
+.shops-section .section-text h2{
+	font-size: 26px;
+}
+
+
+}
+
+@media screen and (max-width: 575px){
+
+.shops-section .section-text h2{
+	font-size: 20px;
+}
+
+.shops-section .shops-card h4{
+	font-size: 18px;
+}
+
+}

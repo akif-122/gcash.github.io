@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.header-section{
+	padding: 100px 0;
+}
+
+.header-section .header-text h1{
+	font-size: 38px;
+}
+
+
+/*
+==========================================
+	MAP SECTION START
+==========================================
+*/
+.map-section{
+	margin: 100px 0;
+}
+
+.map-section .map-search{
+	width: 70%;
+	margin: 40px auto;
+}
+.map-section .map-search .map-searchBar{
+	position: relative;
+	width: 75%;
+}
+.map-section .map-search .map-searchBar input{
+	width: 100%;
+	height: 45px;
+	padding: 15px;
+	padding-right: 50px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 100px;
+	color: #297BFA;
+	border: 1px solid #297BFA;
+}
+
+
+.map-section .map-search .map-searchBar i{
+	color: #297BFA;
+	font-size: 25px;
+	font-weight: 400;
+	position: absolute;
+	top: 9px;
+	right: 15px;
+}
+.map-section .map-search button{
+	width: 20%;
+	margin-left: auto;
+	border-radius: 100px;
+	height: 45px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background: #297BFA;
+	border: 1px solid #297BFA;
+}
+.map-section .map-search button:hover{
+	color: #297BFA;
+	background: transparent;
+}
+
+.map iframe{
+	width: 100%;
+	height: 550px;
+}
+
+.location-list-container .location-list{
+	border-bottom: 1px solid #222;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.location-list-container .location-list p{
+	font-size: 16px;
+	font-weight: 500;
+	margin: 4px 0;
+	font-family: 'Poppins', sans-serif;
+	color: #111;
+
+}
+.location-list-container .location-list a{
+	font-size: 15px;
+	font-weight: 500;
+	display: inline-block;
+	margin-top: 5px;
+
+}
+/*
+==========================================
+	MAP SECTION END
+==========================================
+*/
+
+.partner-section{
+	margin: 80px 0;
+}
+
+.partner-section .section-text h3{
+	font-size: 30px;
+	font-weight: 600;
+	color: #297BFA;
+	text-align: center;
+}
+
+.partner-section  img{
+	width: 70%;
+	text-align: center;
+	display: inline-block;
+	margin: 5px auto;
+}
+	
+
+
+@media screen and (max-width: 767px){
+.map-section .map-search{
+	width: 80%;
+	margin: 40px auto;
+}
+
+.map iframe{
+	width: 100%;
+	height: 350px ;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 575px){
+.partner-section .section-text h3{
+	font-size: 24px;
+	margin-bottom: 30px;
+
+}
+.map-section .map-search{
+	width: 100%;
+	margin: 40px auto;
+}
+
+.map iframe{
+	width: 100%;
+	height: 250px;
+}
+
+
+.map-section .map-search button{
+	width: 23%;
+	margin-left: auto;
+	border-radius: 100px;
+	height: 45px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	background: #297BFA;
+	border: 1px solid #297BFA;
+}
+
+.location-list-container .location-list p{
+	font-size: 13px;
+
+
+}
+.location-list-container .location-list a{
+	font-size: 13px;
+
+
+}
+
+
+}
+
+

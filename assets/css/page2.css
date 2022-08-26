@@ -1,0 +1,727 @@
+.section-text h2{
+	font-size: 44px;
+}
+ .section-text p{
+	font-size: 14px;
+	font-weight: 500;
+}
+body{
+	background: #FAFAFA;
+}
+/*
+=======================================
+	NAVBAR SECTION START
+=======================================
+*/
+.Gnav .navbar-brand{
+	margin-right: 40px;
+}
+.Gnav .cst-btn li a{
+	font-size: 14px ;
+	margin: 0 10px;
+	opacity: 0.8;
+	position: relative;
+}
+
+.Gnav .cst-btn li a.active{
+	position: relative;
+	opacity: 1;
+}
+
+.Gnav .cst-btn li a:before{
+	width: 0px;
+	height: 2px;
+	background: #7FFFD4;
+	opacity: 0.7;
+	content: "";
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	bottom: -3px;
+	transform: translate(-50%, -50%);
+	transition: all 0.2s linear;
+
+}
+.Gnav .cst-btn li a.active:before{
+	width: 100%;
+	opacity: 1;
+
+}
+
+.Gnav .cst-btn li a:hover:before{
+	width: 100%;
+}
+
+
+
+
+
+
+
+.GnavbarLink li a{
+	font-size: 14px !important;
+	margin: 0 10px;
+	opacity: 0.8;
+	font-weight: 500;
+}
+
+
+.Gnav .GnavbarLink li a.active{
+	background: transparent !important;
+}
+.Gnav .GnavbarLink li a.active:before{
+	width: 0px;
+	height: 2px;
+	background: transparent;
+	opacity: 0.7;
+	content: "";
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	bottom: -3px;
+	transform: translate(-50%, -50%);
+	transition: all 0.2s linear;
+
+}
+.Gnav .GnavbarLink li a.active{
+	opacity: 1;
+	font-weight: 600;
+}
+.Gnav .GnavbarLink li a:hover:before{
+	width: 0 !important;
+}
+.register-btns li{
+	list-style: none;
+	text-align: center;
+}
+.register-btns li a{
+	font-size: 14px;
+	color: #333;
+	background: #fff;
+	padding: 7px 15px;
+	border-radius: 40px;
+	margin: 0 5px;
+	font-weight: 500;
+
+}
+.register-btns li a:hover{
+	background: #7FFFD4;
+}
+/*
+=======================================
+	NAVBAR SECTION END
+=======================================
+*/
+
+/*
+=======================================
+	HEADER SECTION START
+=======================================
+*/
+.header-section{
+	padding: 40px 0;
+}
+.header-section .header-text{
+	padding-right: 20px;
+	margin-bottom: 20px;
+}
+.header-section .header-text h1{
+	font-size: 52px;
+	font-weight: 500;
+}
+.header-section .header-text p{
+	font-size: 15px;
+}
+.header-section .header-video  iframe{
+	width: 100%;
+	height: 400px;
+	margin: 20px 0;
+}
+
+/*
+=======================================
+	HEADER SECTION END
+=======================================
+*/
+
+
+/*
+=======================================
+	SHOP SECTION START
+=======================================
+*/
+.shop-section{
+	margin: 100px 0;
+}
+ 
+.shop-section .shop-brand .shop-brand-logo{
+	margin: 5px;
+}
+.shop-section .section-text h2{
+	color: #297BFA;
+}
+.shop-btn{
+	padding: 5px 25px;
+	border-radius: 30px;
+	color: #fff;
+	background: #297BFA;
+	font-size: 13px;
+	margin: 15px 0;
+	display: inline-block;
+}
+.shop-btn:hover{
+	color: #333;
+	background: #7FFFD4;
+}
+
+.shop-video iframe{
+	width: 100%;
+	height: 300px;
+}
+
+/*
+=======================================
+	SHOP SECTION END
+=======================================
+*/
+
+
+/*
+=======================================
+	SECURITY SECTION START
+=======================================
+*/
+.security-section{
+	padding: 60px 0;
+}
+.security-section .section-text{
+	margin-bottom: 40px;
+}
+.security-section .section-text h2{
+	color: #297BFA;
+}
+.security-section .security-text{
+	margin-bottom: 40px;
+}
+.security-section .security-text h6{
+	font-size: 16px;
+	font-weight: 600;
+	color: #222;
+	margin: 10px 0;
+
+}
+.security-section .security-text p{
+	font-size: 15px;
+}
+
+/*
+=======================================
+	SECURITY SECTION END
+=======================================
+*/
+
+/*
+=======================================
+	ECOSYSTEM SECTION START
+=======================================
+*/
+.ecosystem-section{
+	margin: 40px 0;
+	padding: 70px 0;
+	padding-bottom: 30px;
+	background: #91B3FA;
+}
+.ecosystem-section .section-text{
+	margin-bottom: 60px;
+}
+.ecosystem-section .section-text h2{
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.ecosystem-section .section-text p{
+	font-size: 18px;
+	color: #fff;
+}
+
+.ecosystem-section .eco-value h1{
+	font-size: 50px;
+	color: #fff;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	line-height: 0.8;
+} 
+.ecosystem-section .eco-value small{
+	text-align: right;
+	color: #fff;
+	font-size: 10px;
+	margin-top: 0;
+}
+/*
+=======================================
+	ECOSYSTEM SECTION END
+=======================================
+*/
+
+/*
+=======================================
+	AWARD SECTION START
+=======================================
+*/
+.award-section{
+	margin: 100px 0;
+}
+
+.award-section .section-text{
+	margin-bottom: 60px;
+}
+.award-section .section-text h2{
+	color: #111;
+	margin-bottom: 20px;
+}
+
+.award-section .award-year ul li a{
+	color: #333;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 0px 10px;
+	margin: 10px 3px;
+	display: inline-block;
+	border-bottom: 3px solid #C4C4C4;
+}
+.award-section .award-year ul li a.active{
+	border-bottom: 3px solid #297BFA;
+}
+
+.award-section .award-detail{
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 2px 3px 8px -5px grey;
+	padding: 20px;
+	margin: 40px 0;
+}
+.award-section .award-detail p{
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	opacity: 0.8;
+}
+
+/*
+=======================================
+	AWARD SECTION END
+=======================================
+*/
+
+/*
+=======================================
+	FEATURE SECTION START
+=======================================
+*/
+.feature-section{
+	background: #91B3FA;
+	padding: 70px 0;
+	padding-bottom: 100px;
+	position: relative;
+	z-index: 1;
+}
+.feature-section .section-text{
+	margin-bottom: 50px;
+	color: #fff;
+}
+.feature-section .side-img{
+	position: absolute;
+	z-index: -1;
+}
+
+.feature-section .side-img1{
+	width: 130px;
+	position: absolute;
+	top: 40px;
+	left: 120px;
+}
+
+
+.feature-section .side-img2{
+	width: 180px;
+	position: absolute;
+	top: 80px;
+	right: 120px;
+}
+
+.feature-section .side-img3{
+	width: 100px;
+	position: absolute;
+	bottom: 40px;
+	right: 230px;
+}
+
+
+
+/*
+=======================================
+	FEATURE SECTION END
+=======================================
+*/
+
+
+
+
+@media screen and (max-width: 1199px){
+
+/*
+=======================================
+	NAVBAR SECTION START
+=======================================
+*/
+.Gnav .navbar-brand{
+	margin-right: 30px;
+}
+.Gnav .cst-btn li a{
+	font-size: 14px ;
+	margin: 0 10px;
+	opacity: 0.8;
+	position: relative;
+}
+
+.GnavbarLink li a{
+	font-size: 13px !important;
+	margin: 0 3px;
+	opacity: 0.8;
+	font-weight: 500;
+}
+
+/*
+=======================================
+	NAVBAR SECTION END
+=======================================
+*/
+
+
+
+.feature-section .side-img1{
+	width: 130px;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+
+
+.feature-section .side-img2{
+	width: 180px;
+	position: absolute;
+	top: 80px;
+	right: 80px;
+}
+
+.feature-section .side-img3{
+	width: 100px;
+	position: absolute;
+	bottom: 30px;
+	right: 130px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 991px){
+.section-text h2{
+	font-size: 32px;
+}
+
+/*
+=======================================
+	HEADER SECTION START
+=======================================
+*/
+.header-section{
+	padding: 40px 0;
+}
+
+.header-section .header-text h1{
+	font-size: 45px;
+	font-weight: 500;
+}
+.header-section .header-text p{
+	font-size: 13px;
+}
+.header-section .header-video  iframe{
+	width: 100%;
+	height: 300px;
+}
+
+/*
+=======================================
+	HEADER SECTION END
+=======================================
+*/
+
+
+
+/*
+=======================================
+	SHOP SECTION START
+=======================================
+*/
+
+
+.shop-video iframe{
+	width: 100%;
+	height: 250px;
+}
+
+/*
+=======================================
+	SHOP SECTION END
+=======================================
+*/
+
+
+/*
+=======================================
+	SECURITY SECTION START
+=======================================
+*/
+.security-section{
+	padding: 20px 0;
+}
+
+.security-section .security-text h6{
+	font-size: 14px;
+
+}
+.security-section .security-text p{
+	font-size: 13px;
+}
+
+/*
+=======================================
+	SECURITY SECTION END
+=======================================
+*/
+
+
+/*
+=======================================
+	ECOSYSTEM SECTION START
+=======================================
+*/
+.ecosystem-section .section-text{
+	margin-bottom: 60px;
+}
+.ecosystem-section .section-text h2{
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.ecosystem-section .section-text p{
+	font-size: 14px;
+	color: #fff;
+}
+
+.ecosystem-section .eco-value h1{
+	font-size: 40px;
+} 
+.ecosystem-section .eco-value small{
+	font-size: 9px;
+}
+/*
+=======================================
+	ECOSYSTEM SECTION END
+=======================================
+*/
+
+/*
+=======================================
+	AWARD SECTION START
+=======================================
+*/
+
+.award-section .award-detail p{
+	font-size: 14px;
+	
+}
+
+/*
+=======================================
+	AWARD SECTION END
+=======================================
+*/
+
+
+/*
+=======================================
+	FEATURE SECTION START
+=======================================
+*/
+.feature-section{
+	background: #91B3FA;
+	padding: 70px 0;
+	padding-bottom: 100px;
+	position: relative;
+	z-index: 1;
+}
+.feature-section .section-text{
+	margin-bottom: 50px;
+	color: #fff;
+}
+.feature-section .side-img{
+	position: absolute;
+	z-index: -1;
+}
+
+.feature-section .side-img1{
+	width: 130px;
+	position: absolute;
+	top: 40px;
+	left: 120px;
+}
+
+
+.feature-section .side-img2{
+	width: 180px;
+	position: absolute;
+	top: 80px;
+	right: 120px;
+}
+
+.feature-section .side-img3{
+	width: 100px;
+	position: absolute;
+	bottom: 40px;
+	right: 230px;
+}
+.feature-section .feature-img{
+	margin: 20px 0;
+}
+.feature-section .feature-img1{
+	width: 80%;
+}
+
+.feature-section .feature-img2{
+	width: 70%;
+}
+
+.feature-section .feature-img3{
+	width: 50%;
+}
+
+.feature-section .feature-img4{
+	width: 80%;
+}
+
+.feature-section .side-img1{
+	width: 130px;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+
+
+.feature-section .side-img2{
+	width: 180px;
+	position: absolute;
+	top: 80px;
+	right: 30px;
+}
+
+.feature-section .side-img3{
+	width: 100px;
+	position: absolute;
+	bottom: 30px;
+	right: 170px;
+}
+
+
+
+
+/*
+=======================================
+	FEATURE SECTION END
+=======================================
+*/
+
+
+
+}
+
+@media screen and (max-width: 767px){
+
+.header-section .header-text p{
+	font-size: 14px !important;
+}
+.header-section .header-video  iframe{
+	width: 100%;
+	height: 300px;
+}
+
+.section-text{
+	text-align: center;
+}
+.feature-section .section-text{
+	margin-bottom: 30px;
+}
+.feature-section .section-text h2{
+	font-size: 20px;
+
+}
+.feature-section .feature-img1{
+	width: 250px;
+}
+
+.feature-section .feature-img2{
+	width: 240px;
+}
+
+.feature-section .feature-img3{
+	width: 170px;
+}
+
+.feature-section .feature-img4{
+	width: 250px;
+}
+
+
+
+.feature-section .side-img1{
+	width: 80px;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+
+
+.feature-section .side-img2{
+	width: 120px;
+	position: absolute;
+	top: 40px;
+	right: 30px;
+}
+
+.feature-section .side-img3{
+	width: 90px;
+	position: absolute;
+	bottom: 50px;
+	right: 80px;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 575px){
+.header-section .header-video  iframe{
+	width: 100%;
+	height: 250px;
+}
+
+
+.section-text h2{
+	font-size: 20px;
+}
+
+
+}
